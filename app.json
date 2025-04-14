@@ -84,12 +84,12 @@
     },
     "CHATBOT": {
       "description": "When enabled it will send texts both in your inbox and group ",
-      "value": "no",
+      "value": "yes",
       "required": false 
     },
     "CHATBOT_INBOX": {
       "description": "when enabled it sends text messages in pm",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_REACT": {
