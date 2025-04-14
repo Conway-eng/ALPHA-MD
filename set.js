@@ -44,7 +44,7 @@ module.exports = { session:process.env.SESSION_ID || 'ALPHA;;;H4sIAAAAAAAAA61V2Y
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME || null,
     HEROKU_API_KEY : process.env.HEROKU_API_KEY || null,
     WARN_COUNT : process.env.WARN_COUNT || '3' ,
-    ETAT : process.env.PRESENCE || '1',
+    ETAT : process.env.PRESENCE || 'recording',
     DP : process.env.STARTING_BOT_MESSAGE || "yes",
     ADM : process.env.ANTI_DELETE_MESSAGE || 'no',
     ANTICALL: process.env.ANTICALL || 'yes',              
